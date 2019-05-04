@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "G:/Android demo/UIcomponent/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"G:\\Android-SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build \"G:\\Android demo\\UIcomponent\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "G:\\Android-SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build \"G:\\Android demo\\UIcomponent\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=G:/Android-SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=G:/Android-SDK/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem G:\\Android-SDK\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem G:\\Android-SDK\\ndk-bundle\\sources\\android\\support\\include -isystem G:\\Android-SDK\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem G:/Android-SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "G:/Android demo/UIcomponent/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "G:/Android demo/UIcomponent/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "G:/Android demo/UIcomponent/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "3184595145"
+		}
+	},
+	"toolchains" : 
+	{
+		"3184595145" : 
+		{
+			"cCompilerExecutable" : "G:/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "G:/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
