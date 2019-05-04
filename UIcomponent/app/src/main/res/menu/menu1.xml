@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.jiapeng.munedemo.MainActivity" >
+
+    <item
+        android:id="@+id/mune_enter"
+        android:title="字体大小"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/size_12"
+                app:showAsAction="never"
+                android:title="12dp">
+            </item>
+            <item
+                android:id="@+id/size_16"
+                app:showAsAction="never"
+                android:title="16dp">
+            </item>
+            <item
+                android:id="@+id/size_20"
+                app:showAsAction="never"
+                android:title="20dp">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mune_setting"
+        android:title="普通菜单项"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mune_out"
+        android:title="字体颜色"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/color_black"
+                app:showAsAction="never"
+                android:title="black">
+            </item>
+            <item
+                android:id="@+id/color_red"
+                app:showAsAction="never"
+                android:title="red">
+            </item>
+        </menu>
+    </item>
+</menu>

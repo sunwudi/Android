@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "G:/Android demo/layout/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"G:\\Android-SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build \"G:\\Android demo\\layout\\app\\.externalNativeBuild\\cmake\\debug\\x86_64\" --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "G:\\Android-SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build \"G:\\Android demo\\layout\\app\\.externalNativeBuild\\cmake\\debug\\x86_64\" --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=G:/Android-SDK/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=G:/Android-SDK/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem G:\\Android-SDK\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem G:\\Android-SDK\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem G:/Android-SDK/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "G:/Android demo/layout/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "G:/Android demo/layout/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "G:/Android demo/layout/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "3184595145"
+		}
+	},
+	"toolchains" : 
+	{
+		"3184595145" : 
+		{
+			"cCompilerExecutable" : "G:/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "G:/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

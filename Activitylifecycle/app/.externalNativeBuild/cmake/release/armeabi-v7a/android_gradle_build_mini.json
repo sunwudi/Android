@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "G:\\Android demo\\Activitylifecycle\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "G:\\Android-SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build \"G:\\Android demo\\Activitylifecycle\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a\" --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-armeabi-v7a": {
+      "artifactName": "native-lib",
+      "buildCommand": "G:\\Android-SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build \"G:\\Android demo\\Activitylifecycle\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a\" --target native-lib",
+      "abi": "armeabi-v7a",
+      "output": "G:\\Android demo\\Activitylifecycle\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libnative-lib.so"
+    }
+  }
+}
